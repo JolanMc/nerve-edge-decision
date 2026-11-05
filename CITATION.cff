@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use Nerve Edge Decision, please cite it as below."
+title: "Nerve Edge Decision: a runtime monitor for INT8 neural networks at the edge"
+abstract: >-
+  Nerve Edge Decision watches a small INT8 convolutional network deployed with ONNX
+  Runtime. It flags inputs unlike the training data (sensor faults, foreign
+  scenes) and bit flips in the quantised weights, and it reports its own
+  costs: accuracy lost to quantisation, detection rates, latency and memory.
+type: software
+authors:
+  - family-names: Mocanu
+    given-names: Jolan
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/JolanMc/nerve-edge-decision"
+keywords:
+  - edge AI
+  - INT8 quantisation
+  - out-of-distribution detection
+  - runtime monitoring
+  - fault injection
+  - single-event upset
+  - Earth observation
+  - ONNX Runtime

@@ -1,0 +1,14 @@
+# Package versions of the run reported in results/ (Python 3.13, x86-64 Linux, CPU only).
+# Install with: python -m pip install -r requirements-lock.txt && python -m pip install -e . --no-deps
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+onnx==1.19.1
+onnxruntime==1.29.0
+sympy==1.14.0
+pillow==12.3.0
+py7zr==1.0.0
+matplotlib==3.11.2
+torch==2.9.1
+pytest
+ruff

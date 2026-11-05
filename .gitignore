@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and run artefacts (downloaded or regenerated, never committed)
+data/
+runs/
+*.onnx
+!models/*.onnx
+*.pt
+*.npz
+*.7z
